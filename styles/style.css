@@ -6,9 +6,15 @@ body {
 
 #site-header {
     display: grid;
-    grid-template-columns: 50px 1fr 1fr 1fr;
+    grid-template-columns: 70px 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
+    margin-bottom: 30px;
+}
+
+.best-blog {
+    color: lightgray;
+    margin-top: 0px;
 }
 
 .logo-image {
@@ -25,17 +31,25 @@ body {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
+    justify-self: start;
+    margin-left: 10px;
 }
 
 .social-logos {
     grid-column-start: 4; 
     grid-column-end: 4;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 3;
+    justify-self: end;
+    align-self: center;
 }
 
 .delicious {
     align-self: end;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 8px;
 }
 
 .big-break {
@@ -90,6 +104,7 @@ h3 {
     display: flex;
     align-items: center;
     color: lightgray;
+    margin-bottom: 30px;
 }
 
 .author-details {
