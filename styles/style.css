@@ -78,3 +78,31 @@ h3 {
 #notepad-img {
     width: 100%;
 }
+
+#author-content {
+    display: flex;
+    align-items: center;
+    color: lightgray;
+}
+
+.author-details {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 5px;
+    color: gray;
+}
+
+.author-details > p {
+    margin: 5px;
+}
+
+button {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+}
