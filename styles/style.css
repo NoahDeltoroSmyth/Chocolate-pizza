@@ -31,3 +31,35 @@
 .delicious {
     align-self: end;
 }
+
+#blog-post-header {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+    
+}
+
+h3 {
+    color: lightgray;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+#print-id {
+    display: flex;
+    align-items: flex-end;
+}
+
+.print {
+    height: 10px;
+    color: lightgray;
+}
+
+p.print {
+    margin-bottom: 0px;
+}
