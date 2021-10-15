@@ -89,11 +89,35 @@ h3 {
 
 #pizza-img {
     width: 100%;
+    margin-top: 10px;
 }
 
 #main-content {
     color: lightgray;
     margin-bottom: 30px;
+}
+
+#container {
+    position: relative;
+}
+
+#left {
+    position: absolute;
+    left: 45px;
+    top: 10px;
+    color: black;
+    font-size: 25px;
+    line-height: 1.7em;
+    
+}
+
+#right {
+    position: absolute;
+    right: 45px;
+    top: 10px;
+    color: black;
+    font-size: 25px;
+    line-height: 1.7em;
 }
 
 #notepad-img {
