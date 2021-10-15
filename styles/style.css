@@ -98,31 +98,35 @@ h3 {
 }
 
 #container {
-    position: relative;
+    /* position: relative; */
+    width: 100%;
+    background-image: url('../assets/list-bg.png');
 }
 
 #left {
-    position: absolute;
-    left: 45px;
+    /* position: absolute; */
+    /* left: 45px;
+    top: 10px; */
+    color: black;
+    font-size: 25px;
+    line-height: 1.7em;
+    list-style-type: square;
+    columns: 2;
+}
+
+/* #right {
+    position: absolute; */ */
+    /* right: 45px;
     top: 10px;
     color: black;
     font-size: 25px;
     line-height: 1.7em;
-    
+    list-style-type: square;
 }
 
-#right {
-    position: absolute;
-    right: 45px;
-    top: 10px;
-    color: black;
-    font-size: 25px;
-    line-height: 1.7em;
-}
-
-#notepad-img {
+/* #notepad-img {
     width: 100%;
-}
+} */
 
 #author-content {
     display: flex;
