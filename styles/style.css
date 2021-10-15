@@ -98,15 +98,11 @@ h3 {
 }
 
 #container {
-    /* position: relative; */
     width: 100%;
     background-image: url('../assets/list-bg.png');
 }
 
 #left {
-    /* position: absolute; */
-    /* left: 45px;
-    top: 10px; */
     color: black;
     font-size: 25px;
     line-height: 1.7em;
@@ -114,22 +110,9 @@ h3 {
     columns: 2;
 }
 
-/* #right {
-    position: absolute; */ */
-    /* right: 45px;
-    top: 10px;
-    color: black;
-    font-size: 25px;
-    line-height: 1.7em;
-    list-style-type: square;
-}
-
-/* #notepad-img {
-    width: 100%;
-} */
-
 #author-content {
     display: flex;
+    flex-direction: row;
     align-items: center;
     color: lightgray;
     margin-bottom: 30px;
